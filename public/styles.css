@@ -1,0 +1,101 @@
+
+body {
+    margin: 0 auto;
+    font-family: 'Montserrat', serif;
+}
+header {
+    background-color: #77F1FF;
+    color: white;   
+    display: block;
+    height: 80px;
+    margin: 0 auto;
+}
+
+/*top left navbar logo*/
+/**********************/
+
+.group {
+    height: 100%;
+    zoom: 1;
+    max-width: 1110px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.logo {
+    height: 75px;
+    width: 308px;
+    display: inline-block;
+    zoom: 1;
+    float: left;
+    padding: 0;
+}
+.logo-image {
+    width: 75px;
+    height: 75px;
+    display: inline-block;
+}
+.logo-image img {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+.logo-name {   
+    height: 75px;
+    width: 225px;
+    display: inline-block;
+    margin-left: 8px;
+    float: right;
+}
+.logo-name h1 {
+    font-size: 1.1em;
+    margin: 0 auto;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding-top: 16px;
+    letter-spacing: 1px;
+}
+.logo-name h2 {
+    font-size: 1.3em;
+    margin: 0 auto;
+    font-weight: lighter;
+    display: inline-block;
+    padding: 5 auto;
+}
+
+/*nav menu items*/
+/****************/
+
+.nav {
+    height: 75px;
+    width: 400px;
+    font-size: 1.2em;
+    display: inline-block;
+    zoom: 1;
+    vertical-align: middle;
+    float: right;
+    padding: 0;
+}
+.menu-nav_menu {
+    margin: 0 auto;
+}
+.menu-item {
+    padding-right: 3px;
+    padding-left: 3px;
+    height: 35px;
+    display: inline-block;
+}
+.menu-item img {
+    height: 100%;
+    width: auto;
+    display: inline-block;
+}
+#linkedIn {
+    height: 25px;
+    width: auto;
+}
+#github {
+    height: 45px;
+    width: auto;
+}
