@@ -68,6 +68,7 @@ header {
 /****************/
 
 .nav {
+    margin-top: 2px;
     height: 75px;
     width: 400px;
     font-size: 1.2em;
@@ -92,10 +93,14 @@ header {
     display: inline-block;
 }
 #linkedIn {
+    top: 5px;
+    position: relative;
     height: 25px;
     width: auto;
 }
 #github {
+    top: 14px;
+    position: relative;
     height: 45px;
     width: auto;
 }
