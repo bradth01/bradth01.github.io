@@ -1,10 +1,7 @@
+$navbar-color: #77F1FF;
 
-body {
-    margin: 0 auto;
-    font-family: 'Montserrat', serif;
-}
 header {
-    background-color: #77F1FF;
+    background-color: $navbar-color;
     color: white;   
     display: block;
     height: 80px;
@@ -86,11 +83,12 @@ header {
     padding-left: 3px;
     height: 35px;
     display: inline-block;
-}
-.menu-item img {
-    height: 100%;
-    width: auto;
-    display: inline-block;
+
+    img {
+        height: 100%;
+        width: auto;
+        display: inline-block;
+    }
 }
 #linkedIn {
     top: 5px;
