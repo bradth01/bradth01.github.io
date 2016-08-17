@@ -1,8 +1,10 @@
-@import 'navbar';
-
 $font-stack: 'Montserrat', serif;
 
-body {
+body {  
     margin: 0 auto;
     font-family: $font-stack;
 }
+
+@import 'navbar';
+@import 'home';
+@import 'projects';

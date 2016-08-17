@@ -1,26 +1,23 @@
-header {
-  background-color: #77F1FF;
-  color: white;
-  display: block;
-  height: 80px;
-  margin: 0 auto; }
+body {
+  margin: 0 auto;
+  font-family: "Montserrat", serif; }
 
 /*top left navbar logo*/
 /**********************/
 .group {
-  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
   zoom: 1;
-  max-width: 1110px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px; }
+  margin: auto;
+  background-color: #77F1FF;
+  color: white; }
 
 .logo {
   height: 75px;
   width: 308px;
   display: inline-block;
   zoom: 1;
-  float: left;
   padding: 0; }
 
 .logo-image {
@@ -94,6 +91,28 @@ header {
   height: 45px;
   width: auto; }
 
-body {
-  margin: 0 auto;
-  font-family: "Montserrat", serif; }
+#home {
+  display: flex;
+  margin: 0;
+  border: 0;
+  vertical-align: baseline;
+  padding: 115px 0 200px;
+  background-image: url("../images/matrix.png"); }
+
+.container {
+  padding: 0 30px;
+  text-align: center; }
+
+#blurb-title {
+  color: white;
+  font-size: 55px;
+  text-shadow: -3px -3px 0 #000,   3px -3px 0 #000, -3px 3px 0 #000, 3px 3px 0 #000; }
+
+#blurb {
+  color: #77F1FF;
+  display: block;
+  padding: 35px 0 18px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 26px;
+  text-shadow: -2px -2px 0 #000,   2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000; }
