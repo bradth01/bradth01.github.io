@@ -181,3 +181,30 @@ img {
   background-size: cover;
   height: 9px;
   width: 50%; }
+
+#footer {
+  padding: 60px 0 57px;
+  background: #f3f3f3;
+  font-size: 11px;
+  font-family: open sans, sans-serif;
+  clear: both;
+  text-align: center;
+  width: 100%; }
+
+.footer-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none; }
+  .footer-menu li {
+    display: inline-block;
+    margin: 0 15px;
+    color: #818181; }
+    .footer-menu li a {
+      color: #818181; }
+    .footer-menu li img {
+      height: 80px;
+      width: 80px;
+      border-radius: 50%;
+      border: 0.2px solid #818181; }
