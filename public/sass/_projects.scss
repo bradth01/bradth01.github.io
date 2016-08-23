@@ -32,7 +32,12 @@ img {
    max-width: 100%;
 }
 .separator {
-    display: inline block;
     margin: auto;
+    background-image: url('../images/separator.png');
+    background-size: cover;
+    height: 9px;
+    width: 50%;
 }
+
+
 
