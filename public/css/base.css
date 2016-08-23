@@ -1,3 +1,9 @@
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
 body {
   margin: 0 auto;
   font-family: "Montserrat", serif; }
@@ -119,13 +125,16 @@ body {
 
 .row {
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
-  padding: 45px 21px 66px; }
+  padding: 90px 25px 100px;
+  max-width: 900px;
+  margin: auto;
+  column-count: 2;
+  column-width: 200px; }
 
 .project-info {
+  flex: 1 1 300px;
   padding: 0 50px; }
 
 .project-title {
@@ -135,15 +144,12 @@ body {
 .project-description {
   font-size: 14px;
   line-height: 26px;
-  color: #868686;
-  width: 35%; }
+  color: #868686; }
 
 .portfolio-col-screenshot {
-  display: inline-block;
-  zoom: 1;
-  border: 1px solid;
+  flex: 1.5 1 300px;
   border-color: #868686;
-  max-width: 100%; }
+  margin: auto; }
 
 img {
   max-width: 100%; }

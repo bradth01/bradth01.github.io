@@ -2,13 +2,16 @@ $description-color: #868686;
 
 .row {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 45px 21px 66px;
+    flex-wrap: wrap;   
+    padding: 90px 25px 100px;
+    max-width: 900px;
+    margin: auto;
+    column-count: 2;
+    column-width: 200px;
 }
 .project-info {
+    flex: 1 1 300px;
     padding: 0 50px;
 }
 .project-title {
@@ -19,14 +22,11 @@ $description-color: #868686;
     font-size: 14px;
     line-height: 26px;
     color: $description-color;
-    width: 35%
 }
 .portfolio-col-screenshot {
-    display: inline-block;
-    zoom: 1;
-    border: 1px solid;
+    flex: 1.5 1 300px;
     border-color: $description-color;
-    max-width: 100%;
+    margin: auto;
 }
 img {
    max-width: 100%;

@@ -1,5 +1,12 @@
 $font-stack: 'Montserrat', serif;
 
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {  
     margin: 0 auto;
     font-family: $font-stack;
