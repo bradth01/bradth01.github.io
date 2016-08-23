@@ -10,6 +10,8 @@ $navbar-color: #77F1FF;
     margin: auto;  
     background-color: $navbar-color;
     color: white;
+    position: fixed;
+    width: 100%;
 }
 .logo {
     height: 75px;

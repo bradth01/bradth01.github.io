@@ -17,7 +17,9 @@ body {
   zoom: 1;
   margin: auto;
   background-color: #77F1FF;
-  color: white; }
+  color: white;
+  position: fixed;
+  width: 100%; }
 
 .logo {
   height: 75px;
@@ -103,7 +105,8 @@ body {
   border: 0;
   vertical-align: baseline;
   padding: 115px 0 200px;
-  background-image: url("../images/matrix.png"); }
+  background-image: url("../images/matrix.png");
+  background-attachment: fixed; }
 
 .container {
   padding: 0 30px;
