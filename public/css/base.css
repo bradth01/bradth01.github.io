@@ -168,10 +168,11 @@ body {
 
 .portfolio-col-screenshot {
   flex: 1.5 1 300px;
-  border-color: #868686;
   margin: auto; }
 
 img {
+  display: block;
+  margin: 0 auto;
   max-width: 100%; }
 
 .separator {
