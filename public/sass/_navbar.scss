@@ -1,4 +1,5 @@
 $navbar-color: #77F1FF;
+$menu-color: #fff;
 /*top left navbar logo*/
 /**********************/
 
@@ -9,7 +10,7 @@ $navbar-color: #77F1FF;
     zoom: 1;
     margin: auto;  
     background-color: $navbar-color;
-    color: white;
+    color: $menu-color;
     position: fixed;
     width: 100%;
 }

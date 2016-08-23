@@ -17,7 +17,7 @@ body {
   zoom: 1;
   margin: auto;
   background-color: #77F1FF;
-  color: white;
+  color: #fff;
   position: fixed;
   width: 100%; }
 
@@ -104,12 +104,12 @@ body {
   margin: 0;
   border: 0;
   vertical-align: baseline;
-  padding: 115px 0 200px;
+  padding: 115px 0 276px;
   background-image: url("../images/matrix.png");
   background-attachment: fixed; }
 
 .container {
-  padding: 0 30px;
+  padding: 0 80px;
   text-align: center; }
 
 #blurb-title {
@@ -120,11 +120,28 @@ body {
 #blurb {
   color: #77F1FF;
   display: block;
-  padding: 35px 0 18px;
+  padding: 10px 0 18px;
   margin-bottom: 20px;
   font-size: 18px;
   line-height: 26px;
   text-shadow: -2px -2px 0 #000,   2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000; }
+
+.btn.btn-hire {
+  background: rgba(255, 255, 255, 0.4);
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+  display: inline-block;
+  padding: 18px 26px;
+  margin-top: 20px; }
+
+.icon-chevron-right {
+  height: 17px;
+  width: 10px;
+  background: url("../images/chevron-right.png");
+  display: inline-block;
+  margin-left: 10px; }
 
 .row {
   display: flex;
