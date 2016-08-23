@@ -1,0 +1,36 @@
+$footer-color: #f3f3f3;
+$footer-font-color: #818181;
+
+#footer {
+    padding: 60px 0 57px;
+    background: $footer-color;
+    font-size: 11px;
+    font-family: open sans, sans-serif;
+    clear: both;
+    text-align: center;
+    width: 100%;
+}
+.footer-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+
+    li {
+        display: inline-block;
+        margin: 0 15px;
+        color: $footer-font-color;
+
+        a {
+            color: $footer-font-color;
+        }
+
+        img {
+            height: 80px;
+            width: 80px;
+            border-radius: 50%;
+            border: 0.2px solid $footer-font-color;
+        }
+    }
+}
