@@ -1,0 +1,34 @@
+$description-color: #868686;
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 45px 21px 66px;
+}
+.project-info {
+    padding: 0 50px;
+}
+.project-title {
+    font-size: 38px;
+    margin: auto;
+}
+.project-description {
+    font-size: 14px;
+    line-height: 26px;
+    color: $description-color;
+    width: 35%
+}
+.portfolio-col-screenshot {
+    display: inline-block;
+    zoom: 1;
+    border: 1px solid;
+    border-color: $description-color;
+    max-width: 100%;
+}
+img {
+   max-width: 100%;
+}
+

@@ -1,18 +1,8 @@
 $navbar-color: #77F1FF;
-
-// header {
-//     display: flex;
-//     flex-wrap: wrap; 
-//     flex-direction: column;   
-//     background-color: $navbar-color;
-//     color: white;   
-//     margin: auto;
-// }
-
 /*top left navbar logo*/
 /**********************/
 
-.group {
+.nav-group {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;

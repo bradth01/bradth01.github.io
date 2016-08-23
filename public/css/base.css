@@ -4,7 +4,7 @@ body {
 
 /*top left navbar logo*/
 /**********************/
-.group {
+.nav-group {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -116,3 +116,34 @@ body {
   font-size: 18px;
   line-height: 26px;
   text-shadow: -2px -2px 0 #000,   2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000; }
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 45px 21px 66px; }
+
+.project-info {
+  padding: 0 50px; }
+
+.project-title {
+  font-size: 38px;
+  margin: auto; }
+
+.project-description {
+  font-size: 14px;
+  line-height: 26px;
+  color: #868686;
+  width: 35%; }
+
+.portfolio-col-screenshot {
+  display: inline-block;
+  zoom: 1;
+  border: 1px solid;
+  border-color: #868686;
+  max-width: 100%; }
+
+img {
+  max-width: 100%; }
