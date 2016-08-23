@@ -1,10 +1,16 @@
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
 body {
   margin: 0 auto;
   font-family: "Montserrat", serif; }
 
 /*top left navbar logo*/
 /**********************/
-.group {
+.nav-group {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -116,3 +122,34 @@ body {
   font-size: 18px;
   line-height: 26px;
   text-shadow: -2px -2px 0 #000,   2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000; }
+
+.row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 90px 25px 100px;
+  max-width: 900px;
+  margin: auto;
+  column-count: 2;
+  column-width: 200px; }
+
+.project-info {
+  flex: 1 1 300px;
+  padding: 0 50px; }
+
+.project-title {
+  font-size: 38px;
+  margin: auto; }
+
+.project-description {
+  font-size: 14px;
+  line-height: 26px;
+  color: #868686; }
+
+.portfolio-col-screenshot {
+  flex: 1.5 1 300px;
+  border-color: #868686;
+  margin: auto; }
+
+img {
+  max-width: 100%; }
