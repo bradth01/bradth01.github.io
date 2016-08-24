@@ -71,7 +71,6 @@ body {
   display: inline-block;
   zoom: 1;
   vertical-align: middle;
-  float: right;
   padding: 0; }
 
 .menu-nav_menu {
@@ -98,6 +97,21 @@ body {
   position: relative;
   height: 45px;
   width: auto; }
+
+.noselect {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Chrome/Safari/Opera */
+  -khtml-user-select: none;
+  /* Konqueror */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+                                  not supported by any browser */ }
 
 #home {
   display: flex;
