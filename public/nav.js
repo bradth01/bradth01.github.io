@@ -1,7 +1,6 @@
 'use strict';
 
 $(function() {
-    
     // nav span scrolling functionality
     $('.page-link').click(function() {
         $('html, body').animate({
