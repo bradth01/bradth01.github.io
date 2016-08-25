@@ -95,6 +95,10 @@ $menu-color: #fff;
     height: 45px;
     width: auto;
 }
+.active {
+    color: black;
+    box-shadow: 0px 2px 0px black;
+}
 .noselect {
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none;   /* Chrome/Safari/Opera */
