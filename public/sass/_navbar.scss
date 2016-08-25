@@ -77,6 +77,10 @@ $menu-color: #fff;
     height: 35px;
     display: inline-block;
 
+    :hover {
+        cursor: pointer;
+    }
+
     img {
         height: 100%;
         width: auto;

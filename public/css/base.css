@@ -81,6 +81,8 @@ body {
   padding-left: 3px;
   height: 35px;
   display: inline-block; }
+  .menu-item :hover {
+    cursor: pointer; }
   .menu-item img {
     height: 100%;
     width: auto;
@@ -186,7 +188,8 @@ body {
 
 .portfolio-col-screenshot {
   flex: 1.5 1 300px;
-  margin: auto; }
+  margin: auto;
+  margin-bottom: 10px; }
 
 img {
   display: block;
