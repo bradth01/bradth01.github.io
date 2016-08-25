@@ -1,27 +1,24 @@
 'use strict';
 
-// function scroll(buttonId, sectionId, precision) {
-//     if (!precision) precision = 0;
-//     $(buttonId).on("click", function() {
-//         var offset = $(sectionId).offset.top - precision;
-//         $("html, body").animate({
-//             scrollTop: offset
-//         }, 1000);
-//     });
-// }
+$(function() {
+    
+    // nav span scrolling functionality
+    $('.page-link').click(function() {
+        $('html, body').animate({
+            scrollTop: $($(this).attr('rel')).offset().top -75
+        }, 700);
+        // add active class when clicked, making sure only one is active
+        $('.page-link').removeClass('active');
+        $($(this).addClass('active'));
+        // prevent element id from appearing in url
+        event.preventDefault();
+    });
 
-// scroll("#home-button", "#home");
-// // scroll("#projects-button", "#projects");
-
-$("#home-button").on("click", function() {
-    window.scrollTo(0, 0);
-});
-
-$("#projects-button").on("click", function() {
-    var projectsOffset = $("#projects").offset().top -75;
-    console.log(projectsOffset);
-    $("html, body").animate({
-        scrollTop: projectsOffset
-    }, 500);
+    // change menu item color when hovered over
+    $('.page-link').hover(function() {
+        $(this).css('color', 'black');
+    }, function() {
+        $(this).css('color', '');
+    });
 });
 
