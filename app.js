@@ -6,8 +6,8 @@ const path = require('path');
 
 app.use(express.static(path.join(__dirname, '/public')));
 
-app.listen(1337, function() {
-    console.log('listening on port 1337');
+app.listen(process.env.PORT || 1337, function() {
+    console.log('listening on port %d in %s mode', this.address().port, app.settings.env);
 });
 
 app.get('/', function(req, res, next){
