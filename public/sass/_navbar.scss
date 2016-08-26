@@ -1,5 +1,6 @@
 $navbar-color: #77F1FF;
 $menu-color: #fff;
+$footer-font-color: #818181;
 /*top left navbar logo*/
 /**********************/
 
@@ -25,11 +26,14 @@ $menu-color: #fff;
     width: 75px;
     height: 75px;
     display: inline-block;
-}
-.logo-image img {
-    width: 100%;
-    height: auto;
-    display: inline-block;
+
+    img {
+        width: auto;
+        height: auto;
+        display: inline-block;
+        border-radius: 50%;
+        border: 0.2px solid $footer-font-color;
+    }
 }
 .logo-name {   
     height: 75px;

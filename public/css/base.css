@@ -32,11 +32,12 @@ body {
   width: 75px;
   height: 75px;
   display: inline-block; }
-
-.logo-image img {
-  width: 100%;
-  height: auto;
-  display: inline-block; }
+  .logo-image img {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    border-radius: 50%;
+    border: 0.2px solid #818181; }
 
 .logo-name {
   height: 75px;
@@ -121,6 +122,7 @@ body {
 
 #home {
   display: flex;
+  justify-content: center;
   margin: 0;
   border: 0;
   vertical-align: baseline;
@@ -228,8 +230,3 @@ img {
     color: #818181; }
     .footer-menu li a {
       color: #818181; }
-    .footer-menu li img {
-      height: 80px;
-      width: 80px;
-      border-radius: 50%;
-      border: 0.2px solid #818181; }
