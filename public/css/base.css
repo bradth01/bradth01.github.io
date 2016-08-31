@@ -127,7 +127,7 @@ body {
   border: 0;
   vertical-align: baseline;
   padding: 115px 0 276px;
-  background-image: url("../images/matrix.png");
+  background-image: url("../images/scrumpkeysBW.jpg");
   background-attachment: fixed; }
 
 .container {
@@ -135,23 +135,21 @@ body {
   text-align: center; }
 
 #blurb-title {
-  color: white;
-  font-size: 55px;
-  text-shadow: -3px -3px 0 #000,   3px -3px 0 #000, -3px 3px 0 #000, 3px 3px 0 #000; }
+  color: black;
+  font-size: 55px; }
 
 #blurb {
-  color: #77F1FF;
+  color: black;
   display: block;
   padding: 10px 0 18px;
   margin-bottom: 20px;
   font-size: 18px;
-  line-height: 26px;
-  text-shadow: -2px -2px 0 #000,   2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000; }
+  line-height: 26px; }
 
 .btn.btn-hire {
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.5);
   font-size: 20px;
-  color: #fff;
+  color: black;
   text-decoration: none;
   border-radius: 3px;
   display: inline-block;
@@ -161,7 +159,7 @@ body {
 .icon-chevron-right {
   height: 17px;
   width: 10px;
-  background: url("../images/chevron-right.png");
+  background: url("../images/chevron-right-black.png");
   display: inline-block;
   margin-left: 10px; }
 

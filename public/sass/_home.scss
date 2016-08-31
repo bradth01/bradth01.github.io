@@ -1,5 +1,5 @@
-$home-text-color: #77F1FF;
-$menu-color: #fff;
+$home-text-color: black;
+$navbar-blue: #77F1FF;
 
 #home {
     display: flex;
@@ -8,7 +8,7 @@ $menu-color: #fff;
     border: 0;
     vertical-align: baseline;
     padding: 115px 0 276px;
-    background-image: url('../images/matrix.png');
+    background-image: url('../images/scrumpkeysBW.jpg');
     background-attachment: fixed;
 }
 .container {
@@ -16,13 +16,13 @@ $menu-color: #fff;
     text-align: center;
 }
 #blurb-title {
-    color: white;
+    color: $home-text-color;
     font-size: 55px;
-    text-shadow:
-   -3px -3px 0 #000,  
-    3px -3px 0 #000,
-    -3px 3px 0 #000,
-     3px 3px 0 #000;
+    // text-shadow:
+   // -3px -3px 0 #000,  
+   //  3px -3px 0 #000,
+   //  -3px 3px 0 #000,
+   //   3px 3px 0 #000;
 }
 #blurb {
     color: $home-text-color;
@@ -31,16 +31,16 @@ $menu-color: #fff;
     margin-bottom: 20px;
     font-size: 18px;
     line-height: 26px;
-    text-shadow:
-   -2px -2px 0 #000,  
-    2px -2px 0 #000,
-    -2px 2px 0 #000,
-     2px 2px 0 #000;
+   //  text-shadow:
+   // -2px -2px 0 #000,  
+   //  2px -2px 0 #000,
+   //  -2px 2px 0 #000,
+   //   2px 2px 0 #000;
 }
 .btn.btn-hire {
-    background: hsla(0,0%,100%,.4);
+    background: hsla(0,0%,100%,.5);
     font-size: 20px;
-    color: $menu-color;
+    color: $home-text-color;
     text-decoration: none;
     border-radius: 3px;
     display: inline-block;
@@ -50,7 +50,7 @@ $menu-color: #fff;
 .icon-chevron-right {
     height: 17px;
     width: 10px;
-    background: url("../images/chevron-right.png");
+    background: url("../images/chevron-right-black.png");
     display: inline-block;
     margin-left: 10px;
 }
